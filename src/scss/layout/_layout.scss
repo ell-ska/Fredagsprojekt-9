@@ -1,0 +1,5 @@
+@use '../components/button';
+
+.button{
+    @include button.standard($color: var(--color-secondary));
+}
